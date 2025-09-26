@@ -237,23 +237,6 @@ export function ProductModal({ product, onClose }: ProductModalProps) {
             </div>
 
             <div className="border-t border-border pt-4">
-              <div className="flex items-center gap-2 mb-3">
-                <User className="h-4 w-4 text-primary" />
-                <span className="text-sm font-medium">Información del Productor</span>
-              </div>
-              <div className="bg-accent/50 rounded-lg p-3 space-y-2">
-                <div>
-                  <span className="text-sm font-medium text-primary">{producer.name}</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <MapPin className="h-3 w-3 text-muted-foreground" />
-                  <span className="text-xs text-muted-foreground">{producer.location}, Misiones</span>
-                </div>
-                <p className="text-xs text-muted-foreground leading-relaxed">{producer.description}</p>
-              </div>
-            </div>
-
-            <div className="border-t border-border pt-4">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-sm font-medium">Cantidad:</span>
                 <div className="flex items-center gap-3">
